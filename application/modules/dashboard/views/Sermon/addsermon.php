@@ -1,0 +1,135 @@
+<div class="container-fluid">
+    <div class="py-3 d-flex align-items-sm-center flex-sm-row flex-column">
+        <div class="flex-grow-1">
+            <h4 class="fs-18 fw-semibold m-0">Add sermon</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="title"><?php echo $this->lang->line('dash_addsermon_panel_title'); ?></h4>
+                    <p class="category">(*) <?php echo $this->lang->line('dash_gpanel_mfar'); ?></p>
+                </div>
+                <div class="card-body">
+                    <form id="addSermonForm" class="form-horizontal" action="<?php echo base_url(); ?>dashboard/sermon/addnewsermon" method="post" enctype="multipart/form-data">
+                        <div class="row py-2">
+                            <div class="col-md-12">
+
+                                <div class="imageWrapper d-flex align-items-center justify-content-center">
+                                    <style>
+                                        /* Limit image width to avoid overflow the container */
+                                        img {
+                                            max-width: 25%; /* This rule is very important, please do not ignore this! */
+                                        }
+                                    </style>
+
+                                    <img id="image" src="">
+                                </div>
+
+                            </div>
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4">
+                                <div class="form-group py-1 label-floating">
+                                    <p class="image_select_text">Select cover photo</p>
+                                    <input type="file" onchange="sermonFeaturePhoto()" name="profileimage" id="profileimage" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-4"></div>
+                        </div>
+
+                        <div class="row py-2">
+                            <div class="col-md-4">
+                                <div class="form-group py-1 label-floating">
+                                    <input type="file" name="video" class="form-control">
+                                    <p class="image_select_text ini_cropper"> <?php echo $this->lang->line('dash_gpanel_video'); ?></p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group py-1 label-floating">
+                                    <input type="file" name="audio" class="form-control">
+                                    <p class="image_select_text ini_cropper"> <?php echo $this->lang->line('dash_gpanel_audio'); ?></p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group py-1 label-floating">
+                                    <input type="file" name="file" class="form-control">
+                                    <p class="image_select_text ini_cropper"><?php echo $this->lang->line('dash_gpanel_file'); ?></p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group py-1 label-floating is-empty">
+                                    <label class="form-label"><?php echo $this->lang->line('dash_gpanel_title'); ?> (*)</label>
+                                    <input type="text" name="sermontitle" class="form-control" required>
+                                    <span class="material-input"></span></div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group py-1 label-floating is-empty">
+                                    <label class="form-label"><?php echo $this->lang->line('dash_gpanel_date'); ?> (*)</label>
+                                    <input type="text" name="sermondate" class="flatpickr-input form-control" required id="basic-datepicker" readonly>
+                                    <span class="material-input"></span></div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group py-1 label-floating is-empty">
+                                    <label class="form-label"><?php echo $this->lang->line('dash_gpanel_time'); ?> (*)</label>
+                                    <input type="text" name="sermontime" class="flatpickr-input form-control" required readonly id="basic-timepicker">
+                                    <span class="material-input"></span></div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group py-1 label-floating is-empty">
+                                    <label class="form-label"><?php echo $this->lang->line('dash_gpanel_author'); ?> (*)</label>
+                                    <input type="text" name="sermonauthor" class="form-control" required>
+                                    <span class="material-input"></span></div>
+                            </div>
+
+
+
+                        </div>
+
+
+                        <div class="row py-2">
+
+                            <div class="col-md-4">
+                                <div class="form-group py-1 label-floating is-empty">
+                                    <label class="form-label"><?php echo $this->lang->line('dash_gpanel_location'); ?></label>
+                                    <input type="text" name="sermonlocation" class="form-control">
+                                    <span class="material-input"></span></div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="form-group py-1 label-floating is-empty">
+                                    <label class="form-label"><?php echo $this->lang->line('dash_gpanel_youtube'); ?></label>
+                                    <input type="text" name="sermonyoutube" class="form-control">
+                                    <span class="material-input"></span></div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="form-group py-1 label-floating is-empty">
+                                    <label class="form-label"><?php echo $this->lang->line('dash_gpanel_soundcloud'); ?></label>
+                                    <input type="text" name="sermonsoundcloud" class="form-control">
+                                    <span class="material-input"></span></div>
+                            </div>
+
+                        </div>
+
+                        <div class="row py-2">
+                            <div class="col-md-12">
+                                <div class="form-group py-1 label-floating is-empty">
+                                    <label class="form-label"><?php echo $this->lang->line('dash_gpanel_description'); ?></label>
+                                    <textarea rows="5" type="text" id="sermondescription" name="sermondescription" class="form-control"></textarea>
+                                    <span class="material-input"></span></div>
+                            </div>
+                        </div>
+
+                        <button id="addSermonSubmit" type="submit" class="btn btn-primary pull-right py-2"><?php echo $this->lang->line('dash_addsermon_panel_title'); ?></button>
+                        <div class="clearfix"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
