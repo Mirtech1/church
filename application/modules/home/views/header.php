@@ -15,11 +15,7 @@ if ($this->uri->uri_string() == '') {
 
 <!DOCTYPE html>
 
-<!--[if lt IE 7 ]><html class="no-js ie ie6" lang="en"><![endif]-->
-<!--[if IE 7 ]><html class="no-js ie ie7" lang="en"><![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"><![endif]-->
-<!--[if IE 9 ]><html class="no-js ie ie9" lang="en"><![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en" class="no-js"><!--<![endif]-->
+<html lang="en" class="no-js">
 
     <head>
         <meta charset="utf-8">
@@ -28,45 +24,19 @@ if ($this->uri->uri_string() == '') {
         <link rel="shortcut icon" type="image/png" href="<?php echo base_url();?>assets/assets/images/website/<?php echo $basic->favicon;?>"/>
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title><?php echo $basic->title;?> | <?php echo $basic->tag;?></title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&amp;family=Sora:wght@100..800&amp;display=swap">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>landingdep/library/font-awesome-5.15.4/fontawesome-all.min.css">
 
         <!-- Bootstrap And Styles -->
-        <link href="<?php echo base_url(); ?>assets/assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>assets/assets/css/style.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>assets/assets/css/animations.min.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>assets/assets/css/normalize.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>assets/assets/css/ionicons.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>landingdep/library/bootstrap-5.3.2/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>landingdep/library/animate/animate.min.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>landingdep/library/magnific-popup/magnific-popup.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>landingdep/library/odometer/odometer.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>landingdep/library/swiper/swiper-bundle.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>landingdep/library/aos/aos.css">
 
-        <link href="<?php echo base_url(); ?>assets/assets/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" rel="stylesheet" />
-        <link href="<?php echo base_url(); ?>assets/assets/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" rel="stylesheet" />
-        <link href="<?php echo base_url(); ?>assets/assets/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" rel="stylesheet" />
-
-        <link href="<?php echo base_url(); ?>assets/assets/css/owl.carousel.min.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>assets/assets/css/owl.theme.default.min.css" rel="stylesheet">
-
-        <link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-        <link href="<?php echo base_url(); ?>assets/assets/fullcalendar/fullcalendar.min.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>assets/assets/fullcalendar/fullcalendar.print.min.css" rel="stylesheet" media="print" >
-
-        <link href="<?php echo base_url(); ?>assets/assets/unitegallery/dist/css/unite-gallery.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>assets/assets/unitegallery/dist/themes/default/ug-theme-default.css" rel="stylesheet">
-
-        <link href="<?php echo base_url(); ?>assets/assets/jssocials/jssocials.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo base_url(); ?>assets/assets/jssocials/jssocials-theme-flat.css" rel="stylesheet" type="text/css" />
-
-        <link href="https://vjs.zencdn.net/7.1.0/video-js.css" rel="stylesheet">
-
-
-
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
+        <!-- Custom - CSS here -->
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>landingdep/style.css">
 
         <style>
             <?php $themeColor = $basic->color;?>
@@ -255,110 +225,221 @@ if ($this->uri->uri_string() == '') {
 
     </head>
     <body>
-
-        <div id="scroll-element" class="header_section <?php if ($home == false) { echo "header_sec_bg"; } ?>">
-            <div class="container">
-                <div class="col-md-1 col-sm-1 col-xs-1 logo">
-                    <img src="<?php echo base_url();?>assets/assets/images/website/<?php echo $basic->logo;?>" alt="<?php echo $basic->title;?>"></img>
-                </div>
-                <div class="col-md-11 col-sm-11 col-xs-11">
-                    <nav class="navbar primary">
-                        <div class="navbar-header">
-                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                          </button>
-                        </div>
-
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                          <ul class="nav navbar-nav">
-                            <?php
-
-                            $this->db->where('menuparentid', " ");
-                            $this->db->order_by('serialid', "ase");
-                            $parentmenu = $query = $this->db->get('menu');
-                            $parentmenu->result();
-
-                            foreach ($parentmenu->result() as $row) { ?>
-                              <?php
-                                    $this->db->where('menuparentid', $row->menuid);
-                                    $pmquery = $this->db->get('menu');
-                              ?>
-
-                              <li class="parent-menu">
-                                  <a href="<?php if($row->menupageid){echo base_url('home/page'). "/". $row->menupageid;}else{echo ($row->menulink !='') ? $row->menulink : '#'; } ?>"><?php echo $row->menuname;?> <?php if( $pmquery->num_rows() > 0 ){ echo '<i class="fa-fw fa fa-angle-down"></i>'; } ?></a>
-                                    <?php
-
-                                        $this->db->where('serialid', $row->menuid);
-                                        $this->db->order_by('subserialid', "ase");
-                                        $cmquery = $this->db->get('menu');
-
-                                        if($cmquery->num_rows() > 0){ ?>
-                                        <ul class="dropdown-menu">
-                                            <?php foreach ($cmquery->result() as $cm) { ?>
-                                                <li><a href="<?php echo $cm->menulink;?>"><?php echo $cm->menuname;?></a></li>
-                                            <?php }?>
-                                        </ul>
-                                    <?php } ?>
-                                </li>
-
-                            <?php }  if($home == true){ ?>
-
-                                
-
-                            <?php } ?>
-
-                            <?php
-
-                            $this->db->where('cartUserID', $this->session->userdata('user_id'));
-                            $this->db->where('cartcdate', date('j F Y'));
-                            $status = array('Bought', 'Cancel');
-                            $this->db->where_not_in('status', $status);
-                            $cartQuery = $this->db->get('cart');
-
-                            ?>
-
-                            <li class="parent-menu cart">
-                                <a title="Total Cart" href="<?php echo base_url();?>home/shop/cart/" ><i class="fa fa-shopping-bag"></i> (<?php echo $cartQuery->num_rows(); ?>)</a>
-                            </li>
-
-                            <?php if( $this->session->userdata('logged_in') == false ){ ?>
-                                <li class="parent-menu">
-                                    <a href="<?php echo base_url();?>login/" ><i class="fa fa-lock"></i> Login</a>
-                                </li>
-                            <?php }else{ ?>
-                                <li class="parent-menu">
-                                    <a href="<?php echo base_url();?>dashboard/" ><i class="fa fa-cog"></i> Dashboard</a>
-                                </li>
-                            <?php } ?>
-
-                          </ul>
-                        </div>
-                    </nav>
-                </div>
+        <!-- <div id="preloader">
+            <div id="loader" class="loader">
+                <div class="loader-container text-center">
+                    <div class="loader-icon"><img src="<?php echo base_url();?>assets/assets/images/website/<?php echo $basic->logo;?>" alt="Preloader"></div>
+                    <h6 class="text-center"><?php echo $basic->title; ?></h6>
                 </div>
             </div>
-        </div>
+        </div> -->
+        <header class="transparent-header">
+            <div class="tc-header__top d-none d-xxl-block d-xl-block">
+                <div class="container custom-container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-12 justify-content-md-center">
+                            <div class="position-relative overflow-hidden top-news">
+                                <div class="swiper-1-vertical">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="d-flex fs-7 fw-normal align-items-center justify-content-md-center justify-content-lg-start mb-md-2 mb-lg-0">
+                                                <span class="me-2 has-dot"><strong>UP COMING:</strong> St. Patrick's Cathedral Day of Giving</span>
+                                                <a href="blog-details.html" class="d-flex rounded-5 tc-btn-xs">
+                                                    <span>Read More</span>
+                                                    <i data-feather="arrow-right" class="size-12"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="d-flex fs-7 fw-normal align-items-center justify-content-md-center justify-content-lg-start mb-md-2 mb-lg-0">
+                                                <span class="me-2 has-dot"><strong>UP COMING:</strong> Renewal Retreat: Restoring Spirit, Mind & Body</span>
+                                                <a href="blog-details.html" class="d-flex rounded-5 tc-btn-xs">
+                                                    <span>Read More</span>
+                                                    <i data-feather="arrow-right" class="size-12"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="d-flex fs-7 fw-normal align-items-center justify-content-md-center justify-content-lg-start mb-md-2 mb-lg-0">
+                                                <span class="me-2 has-dot"><strong>UP COMING:</strong> Sacred Steps: Charity Walk for Compassion and Hope</span>
+                                                <a href="blog-details.html" class="d-flex rounded-5 tc-btn-xs">
+                                                    <span>Read More</span>
+                                                    <i data-feather="arrow-right" class="size-12"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <ul class="tc-header__top-right list-wrap fs-7 fw-normal">
+                                <li>
+                                    <i class="size-16" data-feather="phone"></i>
+                                    <a href="tel:2295550109"><span class="text-dark">(229) 555-0109</span></a>
+                                </li>
+                                <li>
+                                    <i class="size-16" data-feather="map-pin"></i>
+                                    <span class="text-dark">2118 Thornridge Cir. Syracuse, Connecticut 35624</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- While User Scroll to Dispaly Sticky Header
+            =============================================== -->
+            <div id="sticky-header" class="tc-header__area">
+                <div class="container custom-container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="tgmenu__wrap py-xxl-0 py-xl-0 py-3">
+                                <nav class="tgmenu__nav d-flex align-items-center justify-content-between justify-content-xxl-between justify-content-xl-evenly">
+                                    <div class="logo">
+                                        <a class="d-flex align-items-center" href="<?php echo base_url();?>">
+                                            <img src="<?php echo base_url();?>assets/assets/images/website/<?php echo $basic->logo;?>" alt="Blessed">
+                                        </a>
+                                    </div>
+                                    <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xxl-flex d-xl-flex">
+                                        <!--Main Menu-->
+                                        <ul class="navigation">
+                                            <?php
+
+                                            $this->db->where('menuparentid', " ");
+                                            $this->db->order_by('serialid', "ase");
+                                            $parentmenu = $query = $this->db->get('menu');
+                                            $parentmenu->result();
+
+                                                foreach ($parentmenu->result() as $row) { 
+                                                $this->db->where('menuparentid', $row->menuid);
+                                                $pmquery = $this->db->get('menu');
+                                                ?>
+                                            <li class="<?php if($pmquery->num_rows() > 0){ echo "menu-item-has-children";} ?>"><a href="<?php if($row->menupageid){echo base_url('home/page'). "/". $row->menupageid;}else{echo ($row->menulink !='') ? $row->menulink : 'javascript:'; } ?>"><?php echo $row->menuname;?> <?php if( $pmquery->num_rows() > 0 ){ echo '<i class="fa-fw fa fa-angle-down"></i>'; } ?></a>
+                                            <?php
+                                                $this->db->where('serialid', $row->menuid);
+                                                $this->db->order_by('subserialid', "ase");
+                                                $cmquery = $this->db->get('menu');
+
+                                                if($cmquery->num_rows() > 0){ ?>
+                                                <ul class="sub-menu">
+                                                    <?php foreach ($cmquery->result() as $cm) { ?>
+                                                        <li><a href="<?php echo $cm->menulink;?>"><?php echo $cm->menuname;?></a></li>
+                                                    <?php } ?>
+                                                </ul>
+                                            <?php } ?>
+                                            </li>
+                                            <?php } ?>
+                                        </ul>
+                                    </div>
+                                    <div class="tgmenu__action d-none d-xxl-flex">
+                                        <ul class="list-wrap">
+                                            <li class="header-search">
+                                                <a href="javascript:" class="search-open-btn">
+                                                    <i class="size-24" data-feather="search"></i>
+                                                </a>
+                                            </li>
+                                            <li class="header-language d-none d-xl-block">
+                                                <a href="javascript:" class="d-inline-flex align-items-center gap-1">
+                                                    <i class="size-16" data-feather="globe"></i>
+                                                    <span class="fs-6 text-400">EN</span>
+                                                    <i class="size-16" data-feather="chevron-down"></i>
+                                                </a>
+                                                <ul class="sub-menu">
+                                                    <li><a class="dropdown-item" href="javascript:">English</a></li>
+                                                    <li><a class="dropdown-item" href="javascript:">French</a></li>
+                                                    <li><a class="dropdown-item" href="javascript:">German</a></li>
+                                                    <li><a class="dropdown-item" href="javascript:">Spanish</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="header-btn">
+                                                <a href="javascript:" class="btn text-white rounded-5 btn-circle-arrow menu-tigger">
+                                                    <span>Book Ticket</span>
+                                                    <span class="bg-transparent ms-2">
+                                                        <i class="size-16" data-feather="arrow-right"></i>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="mobile-nav-toggler d-block d-xxl-none d-xl-none d-flex justify-content-center align-items-center justify-content-end">
+                                        <i data-feather="menu"></i>
+                                    </div>
+                                </nav>
+                            </div>
+                            <!-- Mobile Menu  -->
+                            <div class="tgmobile__menu">
+                                <nav class="tgmobile__menu-box">
+                                    <div class="close-btn"><i class="fas fa-times"></i></div>
+                                    <div class="nav-logo">
+                                        <a href="<?php echo base_url();?>"><img src="<?php echo base_url();?>assets/assets/images/website/<?php echo $basic->logo;?>" alt="Blessed"></a>
+                                    </div>
+                                    <div class="tgmobile__search"></div>
+                                    <div class="tgmobile__menu-outer">
+                                    </div>
+                                    <div class="tgmobile__menu-bottom">
+                                        <div class="contact-info">
+                                            <ul class="list-wrap">
+                                                <li><a href="mailto:contact@blessed.com">contact@blessed.com</a></li>
+                                                <li><a href="tel:2295550109">(229) 555-0109</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="social-links">
+                                            <ul class="list-wrap">
+                                                <li><a href="javascript:"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="javascript:"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="javascript:"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="javascript:"><i class="fab fa-linkedin-in"></i></a></li>
+                                                <li><a href="javascript:"><i class="fab fa-youtube"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="tgmobile__menu-backdrop"></div>
+                            <!-- End Mobile Menu -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Contact Us Sidebar
+            ============================= -->
+            <div class="offCanvas__info">
+                <div class="offCanvas__close-icon menu-close">
+                    <button><i class="far fa-window-close"></i></button>
+                </div>
+                <div class="offCanvas__logo mb-30">
+                    <a href="<?php echo base_url();?>"><img src="<?php echo base_url();?>assets/assets/images/website/<?php echo $basic->logo;?>" alt="Blessed"></a>
+                </div>
+                <div class="offCanvas__side-info mb-30">
+                    <div class="contact-list mb-30">
+                        <h4>Office Address</h4>
+                        <p>
+                            123/A, Miranda City Likaoli <br>
+                            Prikano, Dope
+                        </p>
+                    </div>
+                    <div class="contact-list mb-30">
+                        <h4>Phone Number</h4>
+                        <p>+0989 7876 9865 9</p>
+                        <p>+(090) 8765 86543 85</p>
+                    </div>
+                    <div class="contact-list mb-30">
+                        <h4>Email Address</h4>
+                        <p>info@example.com</p>
+                        <p>example.mail@hum.com</p>
+                    </div>
+                </div>
+                <div class="offCanvas__social-icon mt-30">
+                    <a href="javascript:"><i class="fab fa-facebook-f"></i></a>
+                    <a href="javascript:"><i class="fab fa-twitter"></i></a>
+                    <a href="javascript:"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="javascript:"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="offCanvas__overly"></div>
+
+        </header>
+        
 <?php endforeach;?>
-
-
-        <?php
-            $success = $this->session->flashdata('success');
-            $notsuccess = $this->session->flashdata('notsuccess');
-
-            if ($success) {
-                ?>
-
-                <div class="success_notifi notifi" id="success_notifi" style="display:block;">
-                    <p><i class="fa fa-check"></i> <?php echo $success; ?></p>
-                </div>
-
-            <?php } elseif ($notsuccess) { ?>
-
-                <div class="warning_notifi notifi" id="warning_notifi" style="display:block;">
-                    <p><i class="fa fa-times"></i> <?php echo $notsuccess; ?></p>
-                </div>
-
-            <?php } ?>

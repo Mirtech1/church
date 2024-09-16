@@ -11,348 +11,174 @@ if ($this->uri->uri_string() == '') {
 <?php foreach ($basicinfo as $basic)
 
     ?>
-<div class="cs_sections">
-
-    <div class="separator-container">
-        <div class="extra_space_sm"></div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="separator-container">
-                <div class="extra_space_xs"></div>
-            </div>
-            <div class="box height100">
-                <div class="box_header">
-                    <h4><i class="fa fa-comments fa-fw"></i> About Us</h4>
+<!-- Footer Widget Area
+        ======================= -->
+        <footer>
+            <div class="footer-area text-white">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-6 col-md-6 col-12 order-xl-1 order-lg-1 order-md-1 mb-xxl-0 mb-xl-0 mb-lg-5 mb-md-5 mb-sm-5 mb-5">
+                                <div class="footer-widget">
+                                    <div class="fw-logo mb-25">
+                                        <a href="index-2.html"><img src="<?php echo base_url();?>assets/assets/images/website/<?php echo $basic->logo;?>" alt="Blessed"></a>
+                                    </div>
+                                    <div class="footer-content">
+                                        <div class="footer-info-list">
+                                            <ul class="list-wrap fs-6">
+                                                <li>
+                                                    <div class="icon">
+                                                        <i class="size-16" data-feather="phone-call"></i>
+                                                    </div>
+                                                    <div class="content">
+                                                        <a href="tel:2295550109" class="text-white fs-6">(229) 555-0109</a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <i class="size-16" data-feather="map-pin"></i>
+                                                    </div>
+                                                    <div class="content">
+                                                        <span class="fs-6">2118 Thornridge Cir. Syracuse, Connecticut
+                                                            35624</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="footer-social mt-4">
+                                            <h5 class="font-body fw-600 fs-6 fs-6 text-white mb-2">Follow Us</h5>
+                                            <ul class="list-wrap">
+                                                <li><a href="javascript:"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="javascript:"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="javascript:"><i class="fab fa-pinterest-p"></i></a></li>
+                                                <li><a href="javascript:"><i class="fab fa-youtube"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-4 order-xl-2 order-lg-3 order-md-3 mb-xxl-0 mb-xl-0 mb-lg-0 mb-md-0 mb-sm-5 mb-5">
+                                <div class="footer-link-list">
+                                    <div class="footer-widget">
+                                        <h4 class="font-body mb-4 text-white fs-18px">About Us</h4>
+                                        <ul class="list-wrap">
+                                            <li><a href="javascript:">Worship</a></li>
+                                            <li><a href="javascript:">Sermons</a></li>
+                                            <li><a href="javascript:">Events</a></li>
+                                            <li><a href="javascript:">Outreach</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-4 order-xl-3 order-lg-4 order-md-4 mb-xxl-0 mb-xl-0 mb-lg-0 mb-md-0 mb-sm-5 mb-5">
+                                <div class="footer-link-list">
+                                    <div class="footer-widget">
+                                        <h4 class="font-body mb-4 text-white fs-18px">Links</h4>
+                                        <ul class="list-wrap">
+                                            <li><a href="javascript:">Donate</a></li>
+                                            <li><a href="javascript:">Leadership</a></li>
+                                            <li><a href="javascript:">Youth Programs</a></li>
+                                            <li><a href="javascript:">Testimonials</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-4 order-xl-4 order-lg-5 order-md-5 mb-xxl-0 mb-xl-0 mb-lg-0 mb-md-0 mb-sm-5 mb-5">
+                                <div class="footer-link-list">
+                                    <div class="footer-widget">
+                                        <h4 class="font-body mb-4 text-white fs-18px">Support</h4>
+                                        <ul class="list-wrap">
+                                            <li><a href="javascript:">Services</a></li>
+                                            <li><a href="javascript:">Assistance</a></li>
+                                            <li><a href="javascript:">Crisis Hotline</a></li>
+                                            <li><a href="javascript:">Spiritual Guidance</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-md-6 col-12 order-xl-5 order-lg-2 order-md-2 mb-xxl-0 mb-xl-0 mb-lg-5 mb-md-4">
+                                <div class="footer-widget">
+                                    <h4 class="font-body mb-4 text-white fs-18px">Subscribe Newsletter</h4>
+                                    <p class="fs-7 mb-3 text-white">Subscribe our newsletter to get the latest news and updates!</p>
+                                    <div class="footer-newsletter">
+                                        <form action="javascript:">
+                                            <input type="text" id="newsletter" class="newsletter" placeholder="Your email...">
+                                            <button class="btn btn-two" type="submit">Subscribe</button>
+                                        </form>
+                                    </div>
+                                    <p class="fs-7 mt-3">* Your email is kept private</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="box_body">
-                    <p><?php echo $basic->about; ?></p>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-12">
+                                <hr>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="copyright-text">
+                                    <p>© <?php echo date("Y"); ?> <a class="text-primary" href=""><?php echo $basic->title; ?> | <?php echo $basic->tag; ?></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-12 mb-3 mb-xxl-0 mb-xl-0 mb-lg-0">
+                                <ul class="tiny-footer-menu float-end d-none d-xxl-block d-xl-block d-lg-block">
+                                    <li><a href="javascript:" class="fs-7 text-100 text-hover-primary">Terms</a></li>
+                                    <li><a href="javascript:" class="fs-7 text-100 text-hover-primary">Privacy policy</a></li>
+                                    <li><a href="javascript:" class="fs-7 text-100 text-hover-primary">Legal notice</a></li>
+                                    <li><a href="javascript:" class="fs-7 text-100 text-hover-primary">Accessibility</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </footer>
 
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="separator-container">
-                <div class="extra_space_xs"></div>
-            </div>
-            <div class="box height100">
-                <div class="box_header">
-                    <h4><i class="fa fa-phone fa-fw"></i> Contact</h4>
-                </div>
+        <!--  Back To Top - Button When Document Scroll Down to Display
+        ============================================================== -->
+        <button class="scroll__top scroll-to-target" data-target="html"><i class="fas fa-angle-up"></i></button>
 
-                <div class="box_body">
-                    <p><?php echo $basic->contact; ?></p>
-                </div>
-            </div>
-        </div>
+        <!-- Blessed Template - Jquery Library Script Files
+        =================================================== -->
+        <script src="<?php echo base_url(); ?>landingdep/library/jquery-3.7.1.min.js"></script>
+        <script src="<?php echo base_url(); ?>landingdep/library/bootstrap-5.3.2/bootstrap.bundle.min.js"></script>
+        <script src="<?php echo base_url(); ?>landingdep/library/magnific-popup/magnific-popup.min.js"></script>
+        <script src="<?php echo base_url(); ?>landingdep/library/odometer/odometer.min.js"></script>
+        <script src="<?php echo base_url(); ?>landingdep/library/jquery.appear/script.js"></script>
+        <script src="<?php echo base_url(); ?>landingdep/library/parallax-scroll/jquery.parallaxScroll.min.js"></script>
+        <script src="<?php echo base_url(); ?>landingdep/library/isotop/isotope.pkgd.min.js"></script>
+        <script src="<?php echo base_url(); ?>landingdep/library/images-loaded/imagesloaded.pkgd.min.js"></script>
+        <script src="<?php echo base_url(); ?>landingdep/library/swiper/swiper-bundle.js"></script>
+        <script src="<?php echo base_url(); ?>landingdep/library/wow/wow.min.js"></script>
+        <script src="<?php echo base_url(); ?>landingdep/library/aos/aos.js"></script>
+        <script src="<?php echo base_url(); ?>landingdep/library/feather/feather.min.js"></script>
+        <script src="<?php echo base_url(); ?>landingdep/library/gsap-3.10.4/gsap.js"></script>
+        <script src="<?php echo base_url(); ?>landingdep/library/gsap-3.10.4/ScrollTrigger.js"></script>
+        <script src="<?php echo base_url(); ?>landingdep/library/gsap-3.10.4/SplitText.js"></script>
 
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="separator-container">
-                <div class="extra_space_xs"></div>
-            </div>
-            <div class="box height100">
-                <div class="box_header">
-                    <h4><i class="fa fa-map-marker fa-fw"></i> Address</h4>
-                </div>
+        <!-- Blessed - Template Custom Script
+        ===================================== -->
+        <script src="<?php echo base_url(); ?>landingdep/script.js"></script>
+            <?php if($this->uri->segment(2) == "blog" && $this->uri->segment(3) == "view"){ ?>
 
-                <div class="box_body">
-                    <p><?php echo $basic->address; ?></p>
-                </div>
-            </div>
-        </div>
-    </div>
+            <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=<?php echo getBasic()->fbappid;?>&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
 
-    <div class="separator-container">
-        <div class="extra_space_sm"></div>
-    </div>
-
-    <div class="footer-below">
-        <div class="container-fluid">
-            <div class="col-md-4 social_media">
-                <a class="socialbtn facebook" target="_blank" href="<?php echo getBasic()->facebook;?>"><i class="fa fa-facebook"></i></a>
-                <a class="socialbtn twitter" target="_blank" href="<?php echo getBasic()->twitter;?>"><i class="fa fa-twitter"></i></a>
-                <a class="socialbtn linkedin" target="_blank" href="<?php echo getBasic()->linkedin;?>"><i class="fa fa-linkedin"></i></a>
-                <a class="socialbtn googleplus" target="_blank" href="<?php echo getBasic()->googleplus;?>"><i class="fa fa-google"></i></a>
-                <a class="socialbtn youtube" target="_blank" href="<?php echo getBasic()->youtube;?>"><i class="fa fa-youtube"></i></a>
-                <a class="socialbtn pinterest" target="_blank" href="<?php echo getBasic()->pinterest;?>"><i class="fa fa-pinterest"></i></a>
-                <a class="socialbtn instagram" target="_blank" href="<?php echo getBasic()->instagram;?>"><i class="fa fa-instagram"></i></a>
-                <a class="socialbtn whatsapp" target="_blank" href="tel:<?php echo getBasic()->whatsapp;?>"><i class="fa fa-whatsapp"></i></a>
-            </div>
-
-            <div class="col-md-8 copyright">
-                <p class="copyright_text">Copyright © <?php echo date("Y"); ?> - <?php echo $basic->title; ?> - <?php echo $basic->tag; ?> - <?php echo strip_tags($basic->copyright); ?></p>
-            </div>
-        </div>
-    </div>
+        <?php } ?>
 
 
-    <a class="scroll" data-scroll href="#scroll-element"><i class="material-icons">arrow_upward</i></a>
-
-
-
-</div>
-</div>
-
-<?php if($this->uri->segment(2) == "blog" && $this->uri->segment(3) == "view"){ ?>
-
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=<?php echo getBasic()->fbappid;?>&autoLogAppEvents=1';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-<?php } ?>
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="<?php echo base_url(); ?>assets/assets/js/modernizr-2.8.3.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/assets/js/bootstrap.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/assets/js/parallax.js"></script>
-<script src="<?php echo base_url(); ?>assets/assets/js/animations.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/assets/js/appear.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/assets/js/jquery.countdown.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/assets/js/owl.carousel.min.js"></script>
-
-<!-- Add mousewheel plugin (this is optional) -->
-<script src="<?php echo base_url(); ?>assets/assets/fancybox/lib/jquery.mousewheel.pack.js"></script>
-<!-- Add Unitegallery -->
-<script src="<?php echo base_url(); ?>assets/assets/unitegallery/dist/js/unitegallery.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/assets/unitegallery/dist/themes/tiles/ug-theme-tiles.js"></script>
-
-<!-- Add fancyBox -->
-<script src="<?php echo base_url(); ?>assets/assets/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-<script src="<?php echo base_url(); ?>assets/assets/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-<script src="<?php echo base_url(); ?>assets/assets/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-<script src="<?php echo base_url(); ?>assets/assets/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-
-<!-- Add FullCalendar -->
-<script src="<?php echo base_url(); ?>assets/assets/fullcalendar/lib/moment.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/assets/fullcalendar/fullcalendar.min.js"></script>
-
-<!-- Include Jssocial JS -->
-<script src="<?php echo base_url(); ?>assets/assets/jssocials/jssocials.min.js"></script>
-
-<!-- Include VideoJS JS -->
-<script src="https://vjs.zencdn.net/7.1.0/video.js"></script>
-
-<!-- Load The Stripe Js Only if homepage for donation or in cart page for shopping -->
-<?php if($this->uri->uri_string() == '' || $this->uri->segment(3) == "cart"){ ?>
-
-    <!--Stripe Script-->
-    <script src="https://js.stripe.com/v3/"></script>
-    <script>
-        // Stripe API Key
-        var stripe = Stripe('<?php echo getBasic()->stripe_apikey; ?>');
-        var elements = stripe.elements();
-        // Custom Styling
-        var style = {
-            base: {
-                color: '#32325d',
-                lineHeight: '24px',
-                fontFamily: '"Bitter", serif',
-                fontSmoothing: 'antialiased',
-                fontSize: '16px',
-                '::placeholder': {
-                    color: '#aab7c4'
-                }
-            },
-            invalid: {
-                color: '#fa755a',
-                iconColor: '#fa755a'
-            }
-        };
-        // Create an instance of the card Element
-        var card = elements.create('card', {style: style});
-        // Add an instance of the card Element into the `card-element` <div>
-        card.mount('#card-element');
-        // Handle real-time validation errors from the card Element.
-        card.addEventListener('change', function(event) {
-            var displayError = document.getElementById('card-errors');
-        if (event.error) {
-                displayError.textContent = event.error.message;
-            } else {
-                displayError.textContent = '';
-            }
-        });
-        // Handle form submission
-        var form = document.getElementById('payment-form');
-        form.addEventListener('submit', function(event) {
-            event.preventDefault();
-        stripe.createToken(card).then(function(result) {
-                if (result.error) {
-                    // Inform the user if there was an error
-                    var errorElement = document.getElementById('card-errors');
-                    errorElement.textContent = result.error.message;
-                } else {
-                    stripeTokenHandler(result.token);
-                }
-            });
-        });
-        // Send Stripe Token to Server
-        function stripeTokenHandler(token) {
-            // Insert the token ID into the form so it gets submitted to the server
-            var form = document.getElementById('payment-form');
-        // Add Stripe Token to hidden input
-            var hiddenInput = document.createElement('input');
-            hiddenInput.setAttribute('type', 'hidden');
-            hiddenInput.setAttribute('name', 'stripeToken');
-            hiddenInput.setAttribute('value', token.id);
-            form.appendChild(hiddenInput);
-        // Submit form
-            form.submit();
-        }
-
-    </script>
-    <script src="<?php echo base_url(); ?>assets/assets/js/stripecharge.js"></script>
-
-<?php } ?>
-
-
-<script src="<?php echo base_url(); ?>assets/assets/js/smooth-scroll.js"></script>
-<script>
-    var scroll = new SmoothScroll('a.scroll', {
-        speed: 1000, // Integer. How fast to complete the scroll in milliseconds
-        easing: 'easeInOutCubic' // Easing pattern to use
-    });
-
-    var num = 200; //number of pixels before modifying styles
-    $(window).bind('scroll', function () {
-        if ($(window).scrollTop() > num) {
-            $('a.scroll').show();
-        } else {
-            $('a.scroll').hide();
-        }
-    });
-
-</script>
-
-<script type="text/javascript">
-
-    //Dashboard's and Other Notification Auto Hide FlashData Notification
-    $("div#success_notifi").delay(15000).hide("Slow");
-    $("div#warning_notifi").delay(15000).hide("Slow");
-
-
-    $("a.homepage-sermon-video").on('click', function (e) {
-        e.preventDefault();
-        alert('Its Working');
-        $(".homepage-sermon-video-div").hide();
-        $(this).parent().parent().parent().children('.homepage-sermon-video-div').show();
-    });
-
-    jQuery(document).ready(function(){
-        jQuery("#gallery").unitegallery({
-        gallery_theme:"tiles",
-                tiles_type:"columns",
-                tiles_min_columns: 2, //min columns
-                tiles_max_columns: 3 //max columns (0 for unlimited)
-        });
-    });
-
-    jQuery(document).ready(function(){
-        jQuery("#singlePageGallery").unitegallery({
-        gallery_theme:"tiles",
-                tiles_type:"columns",
-                tiles_min_columns: 2, //min columns
-                tiles_max_columns: 4 //max columns (0 for unlimited)
-        });
-    });
-
-    $(".socialShare").jsSocials({
-        shares: ["email", "twitter", "facebook", "googleplus", "linkedin", "pinterest", "whatsapp"],
-        shareIn : "popup"
-    });
-
-</script>
-
-
-<script>
-<?php if ($this->uri->uri_string() == '') { ?>
-
-        $(".owl-carousel").owlCarousel({
-        loop:true,
-                autoplay:true,
-                autoplaySpeed:3000,
-                nav:true,
-                items:1,
-                center:true
-        });
-                $("#calendar").fullCalendar({
-        header: {
-        left: 'prev,next today',
-                center: 'title',
-                right: 'month'
-        },
-                defaultDate: new Date(),
-                height: 700,
-                displayEventTime: false,
-                events: [
-    <?php
-    $i = 0;
-    $totalevents = count($events);
-    foreach ($events as $events) {
-        $i++;
-        ?>
-                    {
-
-                    url: '<?php
-        echo base_url() . "home/event/view/";
-        echo $events->eventid;
-        ?>',
-                            title: '<?php echo $events->eventtitle; ?>',
-                            start: '<?php
-        $edate = $events->eventdate;
-        echo date("Y-m-d", strtotime(str_replace("/", "-", $edate)));
-        ?>'
-                    }<?php
-        if ($i == $totalevents) {
-
-        } else {
-            echo ",";
-        }
-        ?> <?php } ?>
-                ],
-                eventClick: function(event) {
-                if (event.url) {
-                window.open(event.url);
-                        return false;
-                }
-                }
-        });
-                $(".fancybox").fancybox({
-        openEffect	: 'none',
-                closeEffect	: 'none'
-        });
-    <?php foreach ($event as $lastevent): ?>
-            $("#countdown_clock").countdown("<?php
-        $edate = $lastevent->eventdate;
-        echo date("Y-m-d", strtotime(str_replace("/", "-", $edate)));
-        ?>", function(event) {
-            $(this).html(event.strftime('<span>%D<small>day</small></span><span>%H<small>hour</small></span><span>%M<small>min</small></span><span>%S<small>sec</small></span>'));
-            });
-    <?php
-    endforeach;
-}
-?>
-
-/**** Main Menu Jquery ****/
-$('.navbar.primary ul li.parent-menu').hover(
-    function() {
-        $('ul.dropdown-menu', this).stop().slideDown(400);
-    },
-    function() {
-        $('ul.dropdown-menu', this).stop().slideUp(400);
-    }
-);
-
-</script>
-</body>
+        <!-- Include VideoJS JS -->
+        <script src="https://vjs.zencdn.net/7.1.0/video.js"></script>
+    </body>
+    <!-- body end -->
 </html>
