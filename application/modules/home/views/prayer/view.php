@@ -1,30 +1,36 @@
+<main class="fix">
 
-<div class="wrapper_section">
-    <!-- <div class="container"> -->
-    <div class="animate-in cs_sections" data-anim-type="bounce-in-up-large"  data-anim-delay="300"  >
+    <!-- Page Header Banner
+    ======================= -->
+    <section class="page-header" data-background="<?php echo base_url(); ?>landingdep/images/home2/hero-2-bg.png">
         <div class="container">
-            <p class="breadcrumb"><i class="fa fa-home"></i> <a href="<?php echo base_url(); ?>">Home</a> <i class="fa fa-angle-right"></i> <a href="<?php echo base_url(); ?>home/prayer">Prayer</a></p>
-            <h2>Prayer</h2>
-            <div class="separator-container">
-                <div class="separator line-separator">♦</div>
+            <div class="row">
+                <h1 class="mb-2 text-white">Prayer</h1>
+                <nav aria-label="breadcrumb"></nav>
             </div>
+        </div>
+    </section>
 
-            <?php foreach ($prayer as $prayer) { ?>
-                <div class="col-lg-offset-1 col-lg-10 col-md-10 col-sm-12 col-xs-12">
-                    <div class="seminar single">
-                        <h4 class="title"><a href="<?php echo base_url(); ?>home/prayer/view/<?php echo $prayer->prayerid; ?>"><span class="title-icon"> <i class="fa fa-microphone"></i> </span> <?php echo $prayer->prayertitle; ?></a></h4>
+    <!-- Blog Details
+    ================= -->
+    <?php foreach ($prayer as $prayer) { ?>
+    <section class="sermon-details-section-1">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 d-flex align-items-center flex-column justify-content-center">
+                    <h1 class="text-center page-title fw-medium"><?php echo $prayer->prayertitle; ?>
+                    </h1>
+                </div>
+                <div class="col-10">
+                    <div>
                         <?php echo $prayer->prayerdescription; ?>
                     </div>
                 </div>
-            <?php } ?>
-
-            <div class="separator-container">
-                <div class="extra_space_sm"></div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2">
-                <div class="socialShare"></div>
-            </div>
-
         </div>
-    </div>
-</div>
+    </section>
+    <?php } ?> 
+    <!-- Related Blog Posts
+    ======================= -->
+
+</main>

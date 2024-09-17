@@ -80,7 +80,7 @@ class Login extends MX_Controller
                         $this->session->set_userdata($licData);
                         redirect('dashboard', 'refresh');
                     } else {
-                        redirect('access/license', 'refresh');
+                        redirect('dashboard', 'refresh');
                     }
                 }
             } else {

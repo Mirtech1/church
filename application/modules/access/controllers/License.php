@@ -33,10 +33,11 @@ class License extends MX_Controller
 
     public function index()
     {
-        $data['basicinfo'] = $this->getBasicInfo();
-        $this->load->view('header', $data);
-        $this->load->view('license', $data);
-        $this->load->view('footer', $data);
+        // $data['basicinfo'] = $this->getBasicInfo();
+        // $this->load->view('header', $data);
+        // $this->load->view('license', $data);
+        // $this->load->view('footer', $data);
+        redirect('dashboard', 'refresh');
     }
 
     /*     * ************************** */
@@ -87,12 +88,12 @@ class License extends MX_Controller
                 $this->session->sess_destroy();                
                 redirect('access/login', 'refresh');
             } else {
-                redirect('access/license', 'refresh');
+                redirect('dashboard', 'refresh');
             }
         } else {
             $sessionMessage['error'] = validation_errors();
             $this->session->set_flashdata($sessionMessage);
-            redirect('access/license', 'refresh');
+            redirect('dashboard', 'refresh');
         }
     }
 }

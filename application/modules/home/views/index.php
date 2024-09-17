@@ -2,17 +2,17 @@
 
             <!-- Slider Section
             =================== -->
-            <section class="banner-area banner-bg" data-background="<?php echo base_url(); ?>landingdep/images/home1/hero-bg-1.png">
+            <section class="banner-area banner-bg" data-background="<?php echo base_url();?>landingdep/images/home1/hero-bg-1.png">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-7">
                             <div class="banner-content">
-                                <span class="sub-title text-uppercase fw-normal" data-aos="fade-up" data-aos-delay="0">Here is
-                                    Blessed Church</span>
-                                <h2 class="title ds-3 fw-normal text-light" data-aos="fade-up" data-aos-delay="200">Discover
-                                    Community,<br> Ignite Your Faith</h2>
-                                <p class="text-light fs-5" data-aos="fade-up" data-aos-delay="400">Discover Meaning, Find Belonging,
-                                    and Ignite Your Faith in a<br> Welcoming Sanctuary of Light and Love</p>
+                                <span class="sub-title text-uppercase fw-normal" data-aos="fade-up" data-aos-delay="0">Welcome To
+                                    The Presbyterian Church of Nigeria</span>
+                                <h2 class="title ds-3 fw-normal text-light" data-aos="fade-up" data-aos-delay="200">The Presbyterian 
+                                    Church,<br> Nigeria</h2>
+                                <p class="text-light fs-5" data-aos="fade-up" data-aos-delay="400">We are committed to seeing you experience 
+                                    Progress in the Faith With a heart of Light and Love</p>
                                 <a href="about-us.html" class="btn-cirle d-flex align-items-center" data-aos="fade-up" data-aos-delay="600">
                                     <span class="circle-arrow">
                                         <i data-feather="arrow-right"></i>
@@ -41,13 +41,13 @@
                         <div class="col-lg-7 pt-80">
                             <h2 class="ds-3 fw-normal" data-aos="fade-up">Blessed Church</h2>
                             <p class="fs-6" data-aos="fade-up">
-                                At Blessed, we honor religious diversity and believe that each individual carries a deep spirit and
+                                At Presbyterian Church, we honor religious diversity and believe that each individual carries a deep spirit and
                                 a longing for meaning. We provide a safe space for spiritual exploration and development through
                                 events, workshops, and interactive activities.
                             </p>
                             <div class="row mt-5">
                                 <div class="col-lg-6">
-                                    <img src="<?php echo base_url(); ?>landingdep/images/home1/img-1.png" alt="Blessed" data-aos="flip-left">
+                                    <img src="<?php echo base_url();?>landingdep/images/home1/img-1.png" alt="Blessed" data-aos="flip-left">
                                     <h5 class="mt-4 fw-medium">Study Bible</h5>
                                     <p data-aos="fade-up">
                                         Our church is welcoming and sociable, hosting plenty of events. Committees play a crucial
@@ -55,7 +55,7 @@
                                     </p>
                                 </div>
                                 <div class="col-lg-6">
-                                    <img src="<?php echo base_url(); ?>landingdep/images/home1/img-2.png" alt="Blessed" data-aos="flip-left">
+                                    <img src="<?php echo base_url();?>landingdep/images/home1/img-2.png" alt="Blessed" data-aos="flip-left">
                                     <h5 class="mt-4 fw-medium">Place Of Heaven</h5>
                                     <p data-aos="fade-up">
                                         Beyond our spiritual gatherings, our church is a warm and welcoming community, buzzing with
@@ -72,14 +72,13 @@
                                         <li class="pt-3 pb-3">
                                             <div class="d-flex gap-3">
                                                 <div class="event-date rounded-1 text-center">
-                                                    <h4 class="date mb-0 lh-1">18</h4>
-                                                    <span class="fs-8">Jul</span>
+                                                    <h4 class="date mb-0 lh-1">19</h4>
+                                                    <span class="fs-8">Nov</span>
                                                     <span class="fs-8">2024</span>
                                                 </div>
                                                 <div class="content">
                                                     <p class="fs-6 mb-1">
-                                                        <a href="event-details.html" class="text-black">Spiritual Awakening: Unity
-                                                            Gathering</a>
+                                                        <a href="event-details.html" class="text-black">All Presbyterian Conference</a>
                                                     </p>
                                                     <span class="event-meta fs-8">
                                                         <i class="fa fa-clock me-1"></i>
@@ -97,8 +96,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <p class="fs-6 mb-1">
-                                                        <a href="event-details.html" class="text-black">Divine Illumination:
-                                                            Spiritual Retreat</a>
+                                                        <a href="event-details.html" class="text-black">Praise Week Celebration</a>
                                                     </p>
                                                     <span class="event-meta fs-8">
                                                         <i class="fa fa-clock me-1"></i>
@@ -116,7 +114,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <p class="fs-6 mb-1">
-                                                        <a href="event-details.html" class="text-black">Blessed Journey to Peace:
+                                                        <a href="event-details.html" class="text-black">Ministers 
                                                             Conference</a>
                                                     </p>
                                                     <span class="event-meta fs-8">
@@ -147,14 +145,14 @@
                                         </li>
                                     </ul>
                                     <a href="events-list.html" class="btn btn-full" data-aos="fade-up">View More Events</a>
-                                    <img class="position-absolute top-0 right-5 tag" src="<?php echo base_url(); ?>landingdep/images/home1/img-4.png" alt="Blessed">
+                                    <img class="position-absolute top-0 right-5 tag" src="<?php echo base_url();?>landingdep/images/home1/img-4.png" alt="Blessed">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="bg-animation">
-                    <img src="<?php echo base_url(); ?>landingdep/images/home1/img-3.png" alt="Blessed" data-aos="fade-right" data-aos-delay="400" class="aos-init aos-animate img-bg">
+                    <img src="<?php echo base_url();?>landingdep/images/home1/img-3.png" alt="Blessed" data-aos="fade-right" data-aos-delay="400" class="aos-init aos-animate img-bg">
                 </div>
             </section>
 
@@ -167,10 +165,10 @@
                             <div class="d-flex flex-column flex-xl-row gap-xl-5 align-items-xl-end">
                                 <div class="section-title tg-heading-subheading animation-style3">
                                     <span class="sub-title">Sacred Teachings</span>
-                                    <h5 class="title tg-element-title">Explore Our Sermons</h5>
+                                    <h5 class="title tg-element-title">Listen to Sermons</h5>
                                 </div>
                                 <p class="fs-5 w-lg-50 mb-0">
-                                    Delve into the Heart of Spiritual Insight with Our Thought-Provoking Sermons
+                                    Experience Light through our Sermons
                                 </p>
                             </div>
                         </div>
@@ -194,7 +192,7 @@
                                             <div class="postion-relative">
                                                 <div class="project__item-four">
                                                     <div class="project__thumb-four">
-                                                        <a href="sermon-details.html"><img src="<?php echo base_url(); ?>landingdep/images/home1/sermons-1.png" alt="Blessed"></a>
+                                                        <a href="sermon-details.html"><img src="<?php echo base_url();?>landingdep/images/home1/sermons-1.png" alt="Blessed"></a>
                                                     </div>
                                                     <div class="project__content-four">
                                                         <div class="left-content">
@@ -205,16 +203,16 @@
                                                                 In the depths of our souls lies an eternal yearning, a longing to
                                                                 connect with something greater than ourselves.
                                                             </p>
-                                                            <span>Sermon By: Jackson West</span>
+                                                            <span>Sermon By: Rev. EN Akpaniks</span>
                                                         </div>
                                                         <div class="more-details d-flex gap-2 mt-4">
                                                             <div class="icons d-flex gap-2 align-items-center">
                                                                 <a href="https://www.youtube.com/watch?v=QIjIvvHGJ9E" target="_blank" title="Watch Now"><i class="fab fa-youtube"></i></a>
                                                                 <a href="https://soundcloud.com/janmorgenstern/sets/big-buck-bunny" title="listen audio" target="_blank"><i class="fas fa-headphones"></i></a>
 
-                                                                <a href="<?php echo base_url(); ?>landingdep/sample-zip/sample-zip-file.zip" title="Download" download=""><i class="fas fa-cloud-download-alt"></i></a>
+                                                                <a href="<?php echo base_url();?>landingdep/sample-zip/sample-zip-file.zip" title="Download" download=""><i class="fas fa-cloud-download-alt"></i></a>
 
-                                                                <a href="<?php echo base_url(); ?>landingdep/sample-pdf/sermon.pdf" title="Download PDF" download><i class="far fa-file-pdf"></i></a>
+                                                                <a href="<?php echo base_url();?>landingdep/sample-pdf/sermon.pdf" title="Download PDF" download><i class="far fa-file-pdf"></i></a>
 
                                                             </div>
                                                             <a href="sermon-details.html" class="btn d-flex gap-1 btn-rounded-1">
@@ -230,7 +228,7 @@
                                             <div class="postion-relative">
                                                 <div class="project__item-four">
                                                     <div class="project__thumb-four">
-                                                        <a href="sermon-details.html"><img src="<?php echo base_url(); ?>landingdep/images/home1/sermons-2.png" alt="Blessed"></a>
+                                                        <a href="sermon-details.html"><img src="<?php echo base_url();?>landingdep/images/home1/sermons-2.png" alt="Blessed"></a>
                                                     </div>
                                                     <div class="project__content-four">
                                                         <div class="left-content">
@@ -241,16 +239,16 @@
                                                                 In the depths of our souls lies an eternal yearning, a longing to
                                                                 connect with something greater than ourselves.
                                                             </p>
-                                                            <span>Sermon By: Jackson West</span>
+                                                            <span>Sermon By: Rev. Miracle Adah</span>
                                                         </div>
                                                         <div class="more-details d-flex gap-2 mt-4">
                                                             <div class="icons d-flex gap-2 align-items-center">
                                                                 <a href="https://www.youtube.com/watch?v=QIjIvvHGJ9E" target="_blank" title="Watch Now"><i class="fab fa-youtube"></i></a>
                                                                 <a href="https://soundcloud.com/janmorgenstern/sets/big-buck-bunny" title="listen audio" target="_blank"><i class="fas fa-headphones"></i></a>
 
-                                                                <a href="<?php echo base_url(); ?>landingdep/sample-zip/sample-zip-file.zip" title="Download" download=""><i class="fas fa-cloud-download-alt"></i></a>
+                                                                <a href="<?php echo base_url();?>landingdep/sample-zip/sample-zip-file.zip" title="Download" download=""><i class="fas fa-cloud-download-alt"></i></a>
 
-                                                                <a href="<?php echo base_url(); ?>landingdep/sample-pdf/sermon.pdf" title="Download PDF" download><i class="far fa-file-pdf"></i></a>
+                                                                <a href="<?php echo base_url();?>landingdep/sample-pdf/sermon.pdf" title="Download PDF" download><i class="far fa-file-pdf"></i></a>
 
                                                             </div>
                                                             <a href="sermon-details.html" class="btn d-flex gap-1 btn-rounded-1">
@@ -266,7 +264,7 @@
                                             <div class="postion-relative">
                                                 <div class="project__item-four">
                                                     <div class="project__thumb-four">
-                                                        <a href="sermon-details.html"><img src="<?php echo base_url(); ?>landingdep/images/home1/sermons-3.png" alt="Blessed"></a>
+                                                        <a href="sermon-details.html"><img src="<?php echo base_url();?>landingdep/images/home1/sermons-3.png" alt="Blessed"></a>
                                                     </div>
                                                     <div class="project__content-four">
                                                         <div class="left-content">
@@ -277,16 +275,16 @@
                                                                 In the depths of our souls lies an eternal yearning, a longing to
                                                                 connect with something greater than ourselves.
                                                             </p>
-                                                            <span>Sermon By: Jackson West</span>
+                                                            <span>Sermon By: Rev. Victor Aniefok</span>
                                                         </div>
                                                         <div class="more-details d-flex gap-2 mt-4">
                                                             <div class="icons d-flex gap-2 align-items-center">
                                                                 <a href="https://www.youtube.com/watch?v=QIjIvvHGJ9E" target="_blank" title="Watch Now"><i class="fab fa-youtube"></i></a>
                                                                 <a href="https://soundcloud.com/janmorgenstern/sets/big-buck-bunny" title="listen audio" target="_blank"><i class="fas fa-headphones"></i></a>
 
-                                                                <a href="<?php echo base_url(); ?>landingdep/sample-zip/sample-zip-file.zip" title="Download" download=""><i class="fas fa-cloud-download-alt"></i></a>
+                                                                <a href="<?php echo base_url();?>landingdep/sample-zip/sample-zip-file.zip" title="Download" download=""><i class="fas fa-cloud-download-alt"></i></a>
 
-                                                                <a href="<?php echo base_url(); ?>landingdep/sample-pdf/sermon.pdf" title="Download PDF" download><i class="far fa-file-pdf"></i></a>
+                                                                <a href="<?php echo base_url();?>landingdep/sample-pdf/sermon.pdf" title="Download PDF" download><i class="far fa-file-pdf"></i></a>
 
                                                             </div>
                                                             <a href="sermon-details.html" class="btn d-flex gap-1 btn-rounded-1">
@@ -302,7 +300,7 @@
                                             <div class="postion-relative">
                                                 <div class="project__item-four">
                                                     <div class="project__thumb-four">
-                                                        <a href="sermon-details.html"><img src="<?php echo base_url(); ?>landingdep/images/home1/sermons-4.png" alt="Blessed"></a>
+                                                        <a href="sermon-details.html"><img src="<?php echo base_url();?>landingdep/images/home1/sermons-4.png" alt="Blessed"></a>
                                                     </div>
                                                     <div class="project__content-four">
                                                         <div class="left-content">
@@ -320,9 +318,9 @@
                                                                 <a href="https://www.youtube.com/watch?v=QIjIvvHGJ9E" target="_blank" title="Watch Now"><i class="fab fa-youtube"></i></a>
                                                                 <a href="https://soundcloud.com/janmorgenstern/sets/big-buck-bunny" title="listen audio" target="_blank"><i class="fas fa-headphones"></i></a>
 
-                                                                <a href="<?php echo base_url(); ?>landingdep/sample-zip/sample-zip-file.zip" title="Download" download=""><i class="fas fa-cloud-download-alt"></i></a>
+                                                                <a href="<?php echo base_url();?>landingdep/sample-zip/sample-zip-file.zip" title="Download" download=""><i class="fas fa-cloud-download-alt"></i></a>
 
-                                                                <a href="<?php echo base_url(); ?>landingdep/sample-pdf/sermon.pdf" title="Download PDF" download><i class="far fa-file-pdf"></i></a>
+                                                                <a href="<?php echo base_url();?>landingdep/sample-pdf/sermon.pdf" title="Download PDF" download><i class="far fa-file-pdf"></i></a>
 
                                                             </div>
                                                             <a href="sermon-details.html" class="btn d-flex gap-1 btn-rounded-1">
@@ -338,7 +336,7 @@
                                             <div class="postion-relative">
                                                 <div class="project__item-four">
                                                     <div class="project__thumb-four">
-                                                        <a href="sermon-details.html"><img src="<?php echo base_url(); ?>landingdep/images/home1/sermons-5.png" alt="Blessed"></a>
+                                                        <a href="sermon-details.html"><img src="<?php echo base_url();?>landingdep/images/home1/sermons-5.png" alt="Blessed"></a>
                                                     </div>
                                                     <div class="project__content-four">
                                                         <div class="left-content">
@@ -349,16 +347,16 @@
                                                                 In the depths of our souls lies an eternal yearning, a longing to
                                                                 connect with something greater than ourselves.
                                                             </p>
-                                                            <span>Sermon By: Jackson West</span>
+                                                            <span>Sermon By: Rev. EN Akpaniks</span>
                                                         </div>
                                                         <div class="more-details d-flex gap-2 mt-4">
                                                             <div class="icons d-flex gap-2 align-items-center">
                                                                 <a href="https://www.youtube.com/watch?v=QIjIvvHGJ9E" target="_blank" title="Watch Now"><i class="fab fa-youtube"></i></a>
                                                                 <a href="https://soundcloud.com/janmorgenstern/sets/big-buck-bunny" title="listen audio" target="_blank"><i class="fas fa-headphones"></i></a>
 
-                                                                <a href="<?php echo base_url(); ?>landingdep/sample-zip/sample-zip-file.zip" title="Download" download=""><i class="fas fa-cloud-download-alt"></i></a>
+                                                                <a href="<?php echo base_url();?>landingdep/sample-zip/sample-zip-file.zip" title="Download" download=""><i class="fas fa-cloud-download-alt"></i></a>
 
-                                                                <a href="<?php echo base_url(); ?>landingdep/sample-pdf/sermon.pdf" title="Download PDF" download><i class="far fa-file-pdf"></i></a>
+                                                                <a href="<?php echo base_url();?>landingdep/sample-pdf/sermon.pdf" title="Download PDF" download><i class="far fa-file-pdf"></i></a>
 
                                                             </div>
                                                             <a href="sermon-details.html" class="btn d-flex gap-1 btn-rounded-1">
@@ -380,7 +378,7 @@
                     </div>
                 </div>
                 <div class="wrap-asset position-absolute top-50 left-5 ms-5">
-                    <img class="alltuchtopdown" src="<?php echo base_url(); ?>landingdep/images/sermon-details/cornflower-bgr.png" alt="Blessed">
+                    <img class="alltuchtopdown" src="<?php echo base_url();?>landingdep/images/sermon-details/cornflower-bgr.png" alt="Blessed">
                 </div>
             </section>
 
@@ -393,9 +391,9 @@
                             <div class="col-12">
                                 <div class="sec4 py-5 d-flex align-items-center justify-content-between">
                                     <div class="content d-flex align-items-center gap-4">
-                                        <img src="<?php echo base_url(); ?>landingdep/images/home1/img-sec4.png" alt="Blessed" data-aos="zoom-in">
+                                        <img src="<?php echo base_url();?>landingdep/images/home1/img-sec4.png" alt="Blessed" data-aos="zoom-in">
                                         <h4 class="d-sm-inline-flex text-white mb-0 fw-normal animation-style3" data-aos="flip-up">
-                                            “Pray! And listen to God! You can do this alone, but find somebody to do it with you”
+                                            “I will lift up mine eyes unto the hills, from whence cometh my help. cometh from the LORD, which made heaven and earth.”
                                         </h4>
                                     </div>
                                     <a href="campaign-details.html" class="btn mt-4 mt-xl-0 btn-white rounded-5 btn-circle-arrow" data-aos="flip-down">
@@ -419,16 +417,15 @@
                         <div class="col-lg-6 d-flex align-content-start flex-wrap pe-lg-4">
                             <div class="d-flex gap-5 align-items-end" data-aos="fade-up">
                                 <div class="section-title">
-                                    <span class="sub-title">This April</span>
+                                    <span class="sub-title">This September</span>
                                 </div>
                             </div>
-                            <h2 class="fw-normal" data-aos="fade-up">Make a Donation & Become a Part of Something Great</h2>
+                            <h2 class="fw-normal" data-aos="fade-up">Make a Donation to aid the work of the Gospel</h2>
                             <p data-aos="fade-up">
-                                We enjoy being a multi-denominational church where we work together, worship together, and grow
-                                together.
+                                We are a church of Persons with kind heart driven with a passion for missions and care giving.
                             </p>
                             <p class="mb-5" data-aos="fade-up">
-                                People and children of all ages here are encouraged to learn about their own faith and the role of
+                                People and children are encouraged to learn about their own faith and the role of
                                 the church in our community and worldwide.
                             </p>
                             <a href="campaign-details.html" class="btn text-white rounded-5 btn-circle-arrow" data-aos="flip-up">
@@ -439,16 +436,16 @@
                             </a>
                         </div>
                         <div class="col-lg-6 ps-lg-4 pt-lg-0 pt-5">
-                            <img class="img-donation" src="<?php echo base_url(); ?>landingdep/images/home1/img-sec5.png" data-aos="fade-zoom-in" alt="Blessed">
+                            <img class="img-donation" src="<?php echo base_url();?>landingdep/images/home1/img-sec5.png" data-aos="fade-zoom-in" alt="Blessed">
                             <div class="text-box position-relative d-flex align-items-center" data-parallax='{"x" : 50 , "y" : -50 }'>
-                                <h1 class="mb-0 p-4">90</h1>
+                                <small class="mb-0 p-4">Spotlight</small>
                                 <p class="mb-0 has-left-line">Children were helped this week</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="wrap-asset position-absolute">
-                    <img class="alltuchtopdown" src="<?php echo base_url(); ?>landingdep/images/home1/img-sec-5.png" alt="Blessed">
+                    <img class="alltuchtopdown" src="<?php echo base_url();?>landingdep/images/home1/img-sec-5.png" alt="Blessed">
                 </div>
             </section>
 
@@ -460,11 +457,11 @@
                         <div class="col-lg-6 pe-lg-4">
                             <div class="position-relative">
                                 <div class="background">
-                                    <img src="<?php echo base_url(); ?>landingdep/images/home1/img-big-sec6.png" alt="Blessed" data-aos="fade-zoom-in">
+                                    <img src="<?php echo base_url();?>landingdep/images/home1/img-big-sec6.png" alt="Blessed" data-aos="fade-zoom-in">
                                 </div>
                                 <div class="card-float position-absolute br-4 alltuchtopdown">
                                     <div class="card-float-top rounded-top-1">
-                                        <img class="mb-2" src="<?php echo base_url(); ?>landingdep/images/home1/book-card-sec6.png" alt="Blessed" data-aos="fade-up">
+                                        <img class="mb-2" src="<?php echo base_url();?>landingdep/images/home1/book-card-sec6.png" alt="Blessed" data-aos="fade-up">
                                         <p class="mb-0 pt-2 fs-7 text-dark">Reach out to us for support, counseling, or prayer.</p>
                                     </div>
                                     <div class="rounded-bottom-1 card-float-bot d-flex align-items-center justify-content-center">
@@ -498,7 +495,7 @@
                     </div>
                 </div>
                 <div class="wrap-asset position-absolute">
-                    <img src="<?php echo base_url(); ?>landingdep/images/home1/img-sec-6.png" alt="Blessed" data-parallax='{"x" : 100 , "y" : -200 }'>
+                    <img src="<?php echo base_url();?>landingdep/images/home1/img-sec-6.png" alt="Blessed" data-parallax='{"x" : 100 , "y" : -200 }'>
                 </div>
             </section>
 
@@ -554,7 +551,7 @@
                                 <div class="counter-item-cover counter-item" data-aos="flip-up">
                                     <div class="content text-center mx-auto">
                                         <h2 class="count"><span class="odometer" data-count="14"></span>+</h2>
-                                        <h4 class="mb-0" data-aos="flip-up">Campuses</h4>
+                                        <h4 class="mb-0" data-aos="flip-up">Parishes</h4>
                                         <p class="fs-6" data-aos="flip-up">Every week</p>
                                     </div>
                                 </div>
@@ -572,7 +569,7 @@
                                 <div class="counter-item-cover counter-item" data-aos="flip-up">
                                     <div class=" content text-center mx-auto">
                                         <h2 class="count"><span class="odometer" data-count="52"></span>+</h2>
-                                        <h4 class="mb-0" data-aos="flip-up">Groups</h4>
+                                        <h4 class="mb-0" data-aos="flip-up">Boards/Dept</h4>
                                         <p class="fs-6" data-aos="flip-up">Every week</p>
                                     </div>
                                 </div>
@@ -614,12 +611,12 @@
                                     <div class="team-style-01 team-style-02">
                                         <figure class="mb-0 position-relative">
                                             <a href="pastor-details.html">
-                                                <img src="<?php echo base_url(); ?>landingdep/images/home1/pastor-1.png" alt="Blessed">
+                                                <img src="<?php echo base_url();?>landingdep/images/home1/pastor-1.png" alt="Blessed">
                                             </a>
                                             <figcaption class="w-100 p-20px lg-p-25px text-center">
                                                 <div class="position-relative z-3">
                                                     <p class="d-block fw-600 fs-5 text-dark mb-0">
-                                                        <a href="pastor-details.html">Darrell Steward</a>
+                                                        <a href="pastor-details.html">Rev. EN Akpaniks</a>
                                                     </p>
                                                     <p class="fs-7">Executive officer</p>
                                                 </div>
@@ -631,12 +628,12 @@
                                     <div class="team-style-01 team-style-02">
                                         <figure class="mb-0 position-relative">
                                             <a href="pastor-details.html">
-                                                <img src="<?php echo base_url(); ?>landingdep/images/home1/pastor-2.png" alt="Blessed">
+                                                <img src="<?php echo base_url();?>landingdep/images/home1/pastor-2.png" alt="Blessed">
                                             </a>
                                             <figcaption class="w-100 p-20px lg-p-25px text-center">
                                                 <div class="position-relative z-3">
                                                     <p class="d-block fw-600 fs-5 text-dark mb-0">
-                                                        <a href="pastor-details.html">Esther Howard</a>
+                                                        <a href="pastor-details.html">Rev. Miracle Adah</a>
                                                     </p>
                                                     <p class="fs-7">Lead Pastor</p>
                                                 </div>
@@ -648,12 +645,12 @@
                                     <div class="team-style-01 team-style-02">
                                         <figure class="mb-0 position-relative">
                                             <a href="pastor-details.html">
-                                                <img src="<?php echo base_url(); ?>landingdep/images/home1/pastor-3.png" alt="Blessed">
+                                                <img src="<?php echo base_url();?>landingdep/images/home1/pastor-3.png" alt="Blessed">
                                             </a>
                                             <figcaption class="w-100 p-20px lg-p-25px text-center">
                                                 <div class="position-relative z-3">
                                                     <p class="d-block fw-600 fs-5 text-dark mb-0">
-                                                        <a href="pastor-details.html">Ralph Edwards</a>
+                                                        <a href="pastor-details.html">Rev. Victor Aniefok</a>
                                                     </p>
                                                     <p class="fs-7">Christian Speaker</p>
                                                 </div>
@@ -665,12 +662,12 @@
                                     <div class="team-style-01 team-style-02">
                                         <figure class="mb-0 position-relative">
                                             <a href="pastor-details.html">
-                                                <img src="<?php echo base_url(); ?>landingdep/images/home1/pastor-4.png" alt="Blessed">
+                                                <img src="<?php echo base_url();?>landingdep/images/home1/pastor-4.png" alt="Blessed">
                                             </a>
                                             <figcaption class="w-100 p-20px lg-p-25px text-center">
                                                 <div class="position-relative z-3">
                                                     <p class="d-block fw-600 fs-5 text-dark mb-0">
-                                                        <a href="pastor-details.html">Kristin Watson</a>
+                                                        <a href="pastor-details.html">Rev. Onyebuchi John</a>
                                                     </p>
                                                     <p class="fs-7">Protestant Clergy</p>
                                                 </div>
@@ -682,97 +679,12 @@
                                     <div class="team-style-01 team-style-02">
                                         <figure class="mb-0 position-relative">
                                             <a href="pastor-details.html">
-                                                <img src="<?php echo base_url(); ?>landingdep/images/home1/pastor-1.png" alt="Blessed">
+                                                <img src="<?php echo base_url();?>landingdep/images/home1/pastor-1.png" alt="Blessed">
                                             </a>
                                             <figcaption class="w-100 p-20px lg-p-25px text-center">
                                                 <div class="position-relative z-3">
                                                     <p class="d-block fw-600 fs-5 text-dark mb-0">
-                                                        <a href="pastor-details.html">Stevent Steward</a>
-                                                    </p>
-                                                    <p class="fs-7">Executive officer</p>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide hover-up">
-                                    <div class="team-style-01 team-style-02">
-                                        <figure class="mb-0 position-relative">
-                                            <a href="pastor-details.html">
-                                                <img src="<?php echo base_url(); ?>landingdep/images/home1/pastor-1.png" alt="Blessed">
-                                            </a>
-                                            <figcaption class="w-100 p-20px lg-p-25px text-center">
-                                                <div class="position-relative z-3">
-                                                    <p class="d-block fw-600 fs-5 text-dark mb-0">
-                                                        <a href="pastor-details.html">Darrell Steward</a>
-                                                    </p>
-                                                    <p class="fs-7">Executive officer</p>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide hover-up">
-                                    <div class="team-style-01 team-style-02">
-                                        <figure class="mb-0 position-relative">
-                                            <a href="pastor-details.html">
-                                                <img src="<?php echo base_url(); ?>landingdep/images/home1/pastor-2.png" alt="Blessed">
-                                            </a>
-                                            <figcaption class="w-100 p-20px lg-p-25px text-center">
-                                                <div class="position-relative z-3">
-                                                    <p class="d-block fw-600 fs-5 text-dark mb-0">
-                                                        <a href="pastor-details.html">Esther Howard</a>
-                                                    </p>
-                                                    <p class="fs-7">Lead Pastor</p>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide hover-up">
-                                    <div class="team-style-01 team-style-02">
-                                        <figure class="mb-0 position-relative">
-                                            <a href="pastor-details.html">
-                                                <img src="<?php echo base_url(); ?>landingdep/images/home1/pastor-3.png" alt="Blessed">
-                                            </a>
-                                            <figcaption class="w-100 p-20px lg-p-25px text-center">
-                                                <div class="position-relative z-3">
-                                                    <p class="d-block fw-600 fs-5 text-dark mb-0">
-                                                        <a href="pastor-details.html">Ralph Edwards</a>
-                                                    </p>
-                                                    <p class="fs-7">Christian Speaker</p>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide hover-up">
-                                    <div class="team-style-01 team-style-02">
-                                        <figure class="mb-0 position-relative">
-                                            <a href="pastor-details.html">
-                                                <img src="<?php echo base_url(); ?>landingdep/images/home1/pastor-4.png" alt="Blessed">
-                                            </a>
-                                            <figcaption class="w-100 p-20px lg-p-25px text-center">
-                                                <div class="position-relative z-3">
-                                                    <p class="d-block fw-600 fs-5 text-dark mb-0">
-                                                        <a href="pastor-details.html">Kristin Watson</a>
-                                                    </p>
-                                                    <p class="fs-7">Protestant Clergy</p>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide hover-up">
-                                    <div class="team-style-01 team-style-02">
-                                        <figure class="mb-0 position-relative">
-                                            <a href="pastor-details.html">
-                                                <img src="<?php echo base_url(); ?>landingdep/images/home1/pastor-1.png" alt="Blessed">
-                                            </a>
-                                            <figcaption class="w-100 p-20px lg-p-25px text-center">
-                                                <div class="position-relative z-3">
-                                                    <p class="d-block fw-600 fs-5 text-dark mb-0">
-                                                        <a href="pastor-details.html">Stevent Steward</a>
+                                                        <a href="pastor-details.html">Rev. David Emeka</a>
                                                     </p>
                                                     <p class="fs-7">Executive officer</p>
                                                 </div>
@@ -790,7 +702,7 @@
                     </div>
                 </div>
                 <div class="wrap-asset position-absolute top-50 left-5 ms-5">
-                    <img class="alltuchtopdown" src="<?php echo base_url(); ?>landingdep/images/home1/img-sec-8.png" alt="Blessed">
+                    <img class="alltuchtopdown" src="<?php echo base_url();?>landingdep/images/home1/img-sec-8.png" alt="Blessed">
                 </div>
             </section>
 
@@ -808,11 +720,11 @@
                                             <div class="testimonial-1 text-center">
                                                 <div class="testimonial-1__author">
                                                     <div class="testimonial-1__author__avatar">
-                                                        <img class="size-75 rounded-full mb-2" src="<?php echo base_url(); ?>landingdep/images/avatars/avatar-1.jpg" alt="avatar">
+                                                        <img class="size-75 rounded-full mb-2" src="<?php echo base_url();?>landingdep/images/avatars/avatar-1.jpg" alt="avatar">
                                                     </div>
                                                     <div class="testimonial-1__author__info">
-                                                        <h4 class="testimonial-1__author__info__name fs-6 text-dark font-body mb-0">- Michael Thompson -</h4>
-                                                        <p class="testimonial-1__author__info__position fs-8 text-300">@thompson098</p>
+                                                        <h4 class="testimonial-1__author__info__name fs-6 text-dark font-body mb-0">- Emeka Jacob -</h4>
+                                                        <p class="testimonial-1__author__info__position fs-8 text-300">@emeka098</p>
                                                     </div>
                                                 </div>
                                                 <div class="testimonial-1__content">
@@ -830,11 +742,11 @@
                                             <div class="testimonial-1 text-center">
                                                 <div class="testimonial-1__author">
                                                     <div class="testimonial-1__author__avatar">
-                                                        <img class="size-75 rounded-full mb-2" src="<?php echo base_url(); ?>landingdep/images/avatars/avatar-2.jpg" alt="avatar">
+                                                        <img class="size-75 rounded-full mb-2" src="<?php echo base_url();?>landingdep/images/avatars/avatar-2.jpg" alt="avatar">
                                                     </div>
                                                     <div class="testimonial-1__author__info">
-                                                        <h4 class="testimonial-1__author__info__name fs-6 text-dark font-body mb-0">- Rose Parker -</h4>
-                                                        <p class="testimonial-1__author__info__position fs-8 text-300">@RoseParker</p>
+                                                        <h4 class="testimonial-1__author__info__name fs-6 text-dark font-body mb-0">- Ifeanyi Pascal -</h4>
+                                                        <p class="testimonial-1__author__info__position fs-8 text-300">@Ipascal</p>
                                                     </div>
                                                 </div>
                                                 <div class="testimonial-1__content">
@@ -851,11 +763,11 @@
                                             <div class="testimonial-1 text-center">
                                                 <div class="testimonial-1__author">
                                                     <div class="testimonial-1__author__avatar">
-                                                        <img class="size-75 rounded-full mb-2" src="<?php echo base_url(); ?>landingdep/images/avatars/avatar-3.jpg" alt="avatar">
+                                                        <img class="size-75 rounded-full mb-2" src="<?php echo base_url();?>landingdep/images/avatars/avatar-3.jpg" alt="avatar">
                                                     </div>
                                                     <div class="testimonial-1__author__info">
-                                                        <h4 class="testimonial-1__author__info__name fs-6 text-dark font-body mb-0">- Grace Taylor -</h4>
-                                                        <p class="testimonial-1__author__info__position fs-8 text-300">@GraceTaylor</p>
+                                                        <h4 class="testimonial-1__author__info__name fs-6 text-dark font-body mb-0">- Grace Chisom -</h4>
+                                                        <p class="testimonial-1__author__info__position fs-8 text-300">@Grace</p>
                                                     </div>
                                                 </div>
                                                 <div class="testimonial-1__content">
@@ -873,11 +785,11 @@
                                             <div class="testimonial-1 text-center">
                                                 <div class="testimonial-1__author">
                                                     <div class="testimonial-1__author__avatar">
-                                                        <img class="size-75 rounded-full mb-2" src="<?php echo base_url(); ?>landingdep/images/avatars/avatar-4.jpg" alt="avatar">
+                                                        <img class="size-75 rounded-full mb-2" src="<?php echo base_url();?>landingdep/images/avatars/avatar-4.jpg" alt="avatar">
                                                     </div>
                                                     <div class="testimonial-1__author__info">
-                                                        <h4 class="testimonial-1__author__info__name fs-6 text-dark font-body mb-0">- Thomas Harrison -</h4>
-                                                        <p class="testimonial-1__author__info__position fs-8 text-300">@thompson098
+                                                        <h4 class="testimonial-1__author__info__name fs-6 text-dark font-body mb-0">- Vera Chinedu -</h4>
+                                                        <p class="testimonial-1__author__info__position fs-8 text-300">@vera
                                                         </p>
                                                     </div>
                                                 </div>
@@ -895,10 +807,10 @@
                                             <div class="testimonial-1 text-center">
                                                 <div class="testimonial-1__author">
                                                     <div class="testimonial-1__author__avatar">
-                                                        <img class="size-75 rounded-full mb-2" src="<?php echo base_url(); ?>landingdep/images/avatars/avatar-5.jpg" alt="avatar">
+                                                        <img class="size-75 rounded-full mb-2" src="<?php echo base_url();?>landingdep/images/avatars/avatar-5.jpg" alt="avatar">
                                                     </div>
                                                     <div class="testimonial-1__author__info">
-                                                        <h4 class="testimonial-1__author__info__name fs-6 text-dark font-body mb-0">- Anne Mitchell -</h4>
+                                                        <h4 class="testimonial-1__author__info__name fs-6 text-dark font-body mb-0">- Anita Chiwendu -</h4>
                                                         <p class="testimonial-1__author__info__position fs-8 text-300">@AnneMitchell
                                                         </p>
                                                     </div>
@@ -951,7 +863,7 @@
                             <div class="card-blog-1 mb-4 mb-lg-0 rounded-2 overflow-hidden bg-white shadow-1 shine-animate-item hover-up">
                                 <div class="position-relative overflow-hidden mb-2">
                                     <a href="blog-details.html" class="shine-animate">
-                                        <img src="<?php echo base_url(); ?>landingdep/images/home1/news-1.png" alt="Blessed">
+                                        <img src="<?php echo base_url();?>landingdep/images/home1/news-1.png" alt="Blessed">
                                     </a>
                                 </div>
                                 <div class="card-body p-4">
@@ -975,7 +887,7 @@
                             <div class="card-blog-1 mb-4 mb-lg-0 rounded-2 overflow-hidden bg-white shadow-1 shine-animate-item hover-up">
                                 <div class="position-relative overflow-hidden mb-2">
                                     <a href="blog-details.html" class="shine-animate">
-                                        <img src="<?php echo base_url(); ?>landingdep/images/home1/news-2.png" alt="Blessed">
+                                        <img src="<?php echo base_url();?>landingdep/images/home1/news-2.png" alt="Blessed">
                                     </a>
                                 </div>
                                 <div class="card-body p-4">
@@ -999,7 +911,7 @@
                             <div class="card-blog-1 mb-4 mb-lg-0 rounded-2 overflow-hidden bg-white shadow-1 shine-animate-item hover-up">
                                 <div class="position-relative overflow-hidden mb-2">
                                     <a href="blog-details.html" class="shine-animate">
-                                        <img src="<?php echo base_url(); ?>landingdep/images/home1/news-3.png" alt="Blessed">
+                                        <img src="<?php echo base_url();?>landingdep/images/home1/news-3.png" alt="Blessed">
                                     </a>
                                 </div>
                                 <div class="card-body p-4">
@@ -1029,34 +941,34 @@
                 <div class="swiper-container swiper-6-items">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="<?php echo base_url(); ?>landingdep/images/gallery/thumbnail-1.png" alt="Blessed">
+                            <img src="<?php echo base_url();?>landingdep/images/gallery/thumbnail-1.png" alt="Blessed">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo base_url(); ?>landingdep/images/gallery/thumbnail-2.png" alt="Blessed">
+                            <img src="<?php echo base_url();?>landingdep/images/gallery/thumbnail-2.png" alt="Blessed">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo base_url(); ?>landingdep/images/gallery/thumbnail-3.png" alt="Blessed">
+                            <img src="<?php echo base_url();?>landingdep/images/gallery/thumbnail-3.png" alt="Blessed">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo base_url(); ?>landingdep/images/gallery/thumbnail-4.png" alt="Blessed">
+                            <img src="<?php echo base_url();?>landingdep/images/gallery/thumbnail-4.png" alt="Blessed">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo base_url(); ?>landingdep/images/gallery/thumbnail-5.png" alt="Blessed">
+                            <img src="<?php echo base_url();?>landingdep/images/gallery/thumbnail-5.png" alt="Blessed">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo base_url(); ?>landingdep/images/gallery/thumbnail-6.png" alt="Blessed">
+                            <img src="<?php echo base_url();?>landingdep/images/gallery/thumbnail-6.png" alt="Blessed">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo base_url(); ?>landingdep/images/gallery/thumbnail-7.png" alt="Blessed">
+                            <img src="<?php echo base_url();?>landingdep/images/gallery/thumbnail-7.png" alt="Blessed">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo base_url(); ?>landingdep/images/gallery/thumbnail-8.png" alt="Blessed">
+                            <img src="<?php echo base_url();?>landingdep/images/gallery/thumbnail-8.png" alt="Blessed">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo base_url(); ?>landingdep/images/gallery/thumbnail-9.png" alt="Blessed">
+                            <img src="<?php echo base_url();?>landingdep/images/gallery/thumbnail-9.png" alt="Blessed">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo base_url(); ?>landingdep/images/gallery/thumbnail-10.png" alt="Blessed">
+                            <img src="<?php echo base_url();?>landingdep/images/gallery/thumbnail-10.png" alt="Blessed">
                         </div>
                     </div>
                 </div>
@@ -1068,7 +980,7 @@
                 <div class="container">
                     <div class="row d-flex align-items-center">
                         <div class="col-xl-6 col-12 text-start text-xxl-start text-xl-start text-center mb-xxl-0 mb-xl-0 mb-3">
-                            <h2 class=" fs-1 text-dark">Abundant Resources</h2>
+                            <h2 class=" fs-1 text-dark">Reach Out to Us</h2>
                             <p class="mb-0 fw-regular fs-6">Access a wealth of spiritual resources with <br>over 56 sermons
                                 available each week.
                             </p>
@@ -1092,10 +1004,10 @@
                     </div>
                 </div>
                 <div class="wrap-asset-13 position-absolute">
-                    <img class="asset-top-down" src="<?php echo base_url(); ?>landingdep/images/home1/img-sec-13.png" alt="Blessed">
+                    <img class="asset-top-down" src="<?php echo base_url();?>landingdep/images/home1/img-sec-13.png" alt="Blessed">
                 </div>
                 <div class="wrap-asset-13-1 position-absolute">
-                    <img class="asset-top-down" src="<?php echo base_url(); ?>landingdep/images/home1/img-sec-13.1.png" alt="Blessed">
+                    <img class="asset-top-down" src="<?php echo base_url();?>landingdep/images/home1/img-sec-13.1.png" alt="Blessed">
                 </div>
             </div>
 

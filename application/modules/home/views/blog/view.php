@@ -1,77 +1,104 @@
+<main class="fix">
 
-<div class="wrapper_section">
-    <!-- <div class="container"> -->
-    <div class="animate-in cs_sections" data-anim-type="bounce-in-up-large"  data-anim-delay="300"  >
+    <!-- Page Header Banner
+    ======================= -->
+    <section class="page-header" data-background="<?php echo base_url(); ?>landingdep/images/home2/hero-2-bg.png">
         <div class="container">
-            <p class="breadcrumb"><i class="fa fa-home"></i> <a href="<?php echo base_url(); ?>">Home</a> <i class="fa fa-angle-right"></i> <a href="<?php echo base_url(); ?>home/blog">Blog</a></p>
-            <h2>Blog</h2>
-            <div class="separator-container">
-                <div class="separator line-separator">♦</div>
+            <div class="row">
+                <h1 class="mb-2 text-white">Blog</h1>
+                <nav aria-label="breadcrumb"></nav>
             </div>
+        </div>
+    </section>
 
-            <?php foreach ($blog as $blog) { ?>
-                <div class="col-md-8">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="seminar single">
-                            <?php if($blog->image){ ?>
+    <!-- Blog Details
+    ================= -->
+    <?php foreach ($blog as $blog) { ?>
+    <section class="sermon-details-section-1">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 d-flex align-items-center flex-column justify-content-center">
+                    <h1 class="text-center page-title fw-medium"><?php echo $blog->title; ?>
+                    </h1>
+                </div>
+                <div class="col-12 mt-5 d-flex justify-content-center">
+                    <?php if($blog->image){ ?>
                                 <img src="<?php echo base_url(); ?>assets/assets/images/blog/<?php echo $blog->image; ?>" alt="<?php echo $blog->title;?>"></img>
                             <?php }else{ ?>
                                 <img src="<?php echo base_url(); ?>assets/assets/images/no-preview.png" alt="<?php echo $blog->title;?>"></img>
                             <?php } ?>
-
-                                <h5><span><i class="fa fa-calendar"></i> Published - <?php echo $blog->cdate; ?></span> <?php if(getUserByID($blog->author)){?> <span><i class="fa fa-map-person"></i> Author - <?php echo getUserByID($blog->author)->username; ?> </span> <?php } ?> </h5>
-                            <h4><a   href="<?php echo base_url(); ?>home/blog/view/<?php echo $blog->postID; ?>"><?php echo $blog->title; ?></a></h4>
-                        </div>
-
-                        <div class="seminar-view">
-                            <div class="row">
-                                <h4><?php echo $blog->content; ?></h4>
-                            </div>
-
-                            <div class="separator-container">
-                                <div class="extra_space_sm"></div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <div class="fb-comments" data-href="<?php echo base_url();?>home/blog/view/11" data-numposts="5"></div>
-                                </div>
+                </div>
+                <div class="col-10">
+                    <div class="d-block d-md-flex underlined-bottom justify-content-between">
+                        <div class="position-relative w-fit-content overflow-hidden shine-animate-item hover-up d-flex align-items-center py-4">
+                            <a href="<?php echo base_url(); ?>home/blog/view/<?php echo $blog->postID; ?>" class="shine-animate">
+                                <!-- <img src="assets/images/pastors/avatar-img-pastors-sec-4.png" alt="Blessed"> -->
+                            </a>
+                            <div class="title ps-4">
+                                <h3 class="fs-5 fw-semibold mb-0">
+                                    <a href="#"><?php echo getUserByID($blog->author)->username; ?></a>
+                                </h3>
+                                <p class="fs-7 mb-0"><?php echo $blog->cdate; ?></p>
                             </div>
                         </div>
-
-                        <div class="separator-container">
-                            <div class="extra_space_sm"></div>
+                        <div class="icons d-flex align-items-center mb-4 mb-xxl-0 mb-xl-0 mb-lg-0 mb-md-0 mb-sm-4">
+                            <p class="text-dark mb-0 me-2">Share:</p>
+                            <a href="javascript:" target="_blank" class="fw-600 text-dark px-2"><i class="fab fa-facebook-f"></i></a>
+                            <a href="javascript:" target="_blank" class="fw-600 text-dark px-2"><i class="fab fa-instagram"></i></a>
+                            <a href="javascript:" target="_blank" class="fw-600 text-dark px-2"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="javascript:" target="_blank" class="fw-600 text-dark px-2"><i class="fab fa-twitter"></i></a>
                         </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-                            <div class="socialShare"></div>
-                        </div>
-
+                    </div>
+                    <div>
+                        <?php echo $blog->content; ?>
                     </div>
                 </div>
-            <?php } ?>
-
-            <div class="col-md-4">
+            </div>
+        </div>
+    </section>
+    <?php } ?> 
+    <!-- Related Blog Posts
+    ======================= -->
+    <section class="pt-80px pb-80px bg-linear-1 mt-80px">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="section-title tg-heading-subheading animation-style3">
+                        <span class="sub-title">Our news and blog</span>
+                        <h5 class="title tg-element-title">Updated Latest News</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
                 <?php if( is_array($recents) ){ ?>
                 <?php foreach ($recents as $recent){ ?>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="seminar">
-
-                        <?php if($recent->image){ ?>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card-blog-1 mb-4 mb-lg-0  rounded-2 overflow-hidden bg-white shadow-1 shine-animate-item hover-up">
+                        <div class="position-relative overflow-hidden mb-2">
+                            <a href="<?php echo base_url(); ?>home/blog/view/<?php echo $recent->postID; ?>" class="shine-animate">
+                                <?php if($recent->image){ ?>
                             <img src="<?php echo base_url(); ?>assets/assets/images/blog/<?php echo $recent->image; ?>" alt="<?php echo $recent->title;?>"></img>
                         <?php }else{ ?>
                             <img src="<?php echo base_url(); ?>assets/assets/images/no-preview.png" alt="<?php echo $recent->title;?>"></img>
                         <?php } ?>
-                        <h4><a   href="<?php echo base_url(); ?>home/blog/view/<?php echo $recent->postID; ?>"><?php echo $recent->title; ?></a></h4>
-                        <h5><span><i class="fa fa-calendar"></i> Published - <?php echo $recent->cdate; ?></span> <?php if(getUserByID($recent->author)){?> <span><i class="fa fa-map-person"></i> Author - <?php echo getUserByID($recent->author)->username; ?> </span> <?php } ?> </h5>
-
+                            </a>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="font-body text-dark fs-5 lh-base"><a href="<?php echo base_url(); ?>home/blog/view/<?php echo $recent->postID; ?>" class=""><?php echo $recent->title; ?></a></h5>
+                            <div class="meta-1 fs-7 mb-3">
+                                <span class="author">by <a href="<?php echo base_url(); ?>home/blog/view/<?php echo $recent->postID; ?>" class="text-decoration-underline"> <?php echo getUserByID($recent->author)->username; ?></a></span>
+                                <span class="date ms-1"><?php echo $recent->cdate; ?></span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="<?php echo base_url(); ?>home/blog/view/<?php echo $recent->postID; ?>" class="text-decoration-underline fs-7">Read More</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                 <?php } ?>
                 <?php } ?>
-                <?php } ?>
-
             </div>
-
         </div>
-    </div>
-</div>
+    </section>
+
+</main>
