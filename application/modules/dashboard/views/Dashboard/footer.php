@@ -38,6 +38,7 @@
 
 
 <!-- Custom JS Files Added -->
+ <script src="<?php echo base_url(); ?>dep/js/toastr.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/assets/js/dashboard.js"></script>
 <!-- Datatables js -->
 <script src="<?php echo base_url(); ?>dep/libs/datatables.net/js/jquery.dataTables.min.js"></script>

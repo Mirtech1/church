@@ -210,21 +210,13 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.logo_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.logo_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.favicon_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.favicon_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -256,13 +248,9 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
 
             },
@@ -298,25 +286,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -350,29 +328,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -406,25 +372,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -457,29 +413,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -514,25 +458,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -565,29 +499,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -623,25 +545,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -674,29 +586,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -732,25 +632,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -783,29 +673,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -838,25 +716,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -889,29 +757,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -946,25 +802,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -997,29 +843,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -1054,25 +888,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
-                    $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
+                    toastr.error("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -1105,29 +929,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -1161,25 +973,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -1212,29 +1014,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -1268,25 +1058,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -1319,29 +1099,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -1375,25 +1143,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -1426,29 +1184,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -1483,25 +1229,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -1534,29 +1270,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -1590,25 +1314,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -1641,29 +1355,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -1697,25 +1399,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -1748,29 +1440,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -1804,25 +1484,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -1855,29 +1525,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -1911,25 +1569,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -1962,29 +1610,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -2018,25 +1654,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -2069,29 +1695,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -2125,25 +1739,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -2176,25 +1780,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -2228,25 +1822,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -2279,25 +1863,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -2332,25 +1906,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -2383,25 +1947,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -2435,25 +1989,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(500).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(500).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -2486,29 +2030,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(500).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(500).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -2543,25 +2075,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(500).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(500).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -2594,29 +2116,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(500).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(500).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -2651,17 +2161,11 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -2695,25 +2199,15 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(500).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(500).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -2746,29 +2240,17 @@ $(document).ready(function () {
             success: function (data) {
                 $("div#loading").delay(500).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(500).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailerror) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailerror + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.profileimage_error) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.profileimage_error + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.emailexist) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.emailexist + "</p>");
-                    $("div#warning_notifi").delay(500).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             },
             cache: false,
@@ -2813,17 +2295,11 @@ $(document).ready(function () {
 
                 $("div#loading").delay(100).fadeOut("slow");
                 if (data.success) {
-                    $("div#success_notifi").html("<p><i class='material-icons'>check_box</i> Success : " + data.success + "</p>");
-                    $("div#success_notifi").delay(100).show();
-                    $("div#success_notifi").delay(5000).hide("Slow");
+                    toastr.success("<p>" + data.success + "</p>");
                 } else if (data.errorFormValidation) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.errorFormValidation + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 } else if (data.notsuccess) {
                     $("div#warning_notifi").html("<p><i class='material-icons'>error</i> Error : " + data.notsuccess + "</p>");
-                    $("div#warning_notifi").delay(100).show();
-                    $("div#warning_notifi").delay(5000).hide("Slow");
                 }
             }
         });

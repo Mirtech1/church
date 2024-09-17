@@ -56,6 +56,7 @@ $siteinfo = $siteinfo->result();
     <link href="<?php echo base_url(); ?>dep/libs/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo base_url(); ?>dep/libs/datatables.net-select-bs5/css/select.bootstrap5.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo base_url(); ?>dep/libs/flatpickr/flatpickr.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo base_url(); ?>dep/js/toastr.min.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body data-menu-color="light" data-sidebar="default">

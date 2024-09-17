@@ -1115,3 +1115,22 @@ ERROR - 2024-09-17 12:26:34 --> Could not find the language line "dash_gpanel_me
 ERROR - 2024-09-17 12:26:34 --> 404 Page Not Found: /index
 ERROR - 2024-09-17 12:26:43 --> Severity: Warning --> Attempt to read property "pageslug" on string C:\xampp\htdocs\church\application\modules\dashboard\views\Menu\edit.php 42
 ERROR - 2024-09-17 12:26:43 --> 404 Page Not Found: /index
+ERROR - 2024-09-17 12:39:54 --> Severity: Warning --> Attempt to read property "pageslug" on string C:\xampp\htdocs\church\application\modules\dashboard\views\Menu\edit.php 42
+ERROR - 2024-09-17 12:39:54 --> 404 Page Not Found: /index
+ERROR - 2024-09-17 12:39:57 --> 404 Page Not Found: /index
+ERROR - 2024-09-17 12:39:58 --> 404 Page Not Found: /index
+ERROR - 2024-09-17 12:39:58 --> 404 Page Not Found: /index
+ERROR - 2024-09-17 12:39:58 --> 404 Page Not Found: /index
+ERROR - 2024-09-17 12:39:58 --> 404 Page Not Found: /index
+ERROR - 2024-09-17 12:39:58 --> 404 Page Not Found: /index
+ERROR - 2024-09-17 12:39:58 --> 404 Page Not Found: /index
+ERROR - 2024-09-17 12:39:58 --> 404 Page Not Found: /index
+ERROR - 2024-09-17 12:40:39 --> Severity: Warning --> Attempt to read property "pageslug" on string C:\xampp\htdocs\church\application\modules\dashboard\views\Menu\edit.php 42
+ERROR - 2024-09-17 12:40:39 --> 404 Page Not Found: /index
+ERROR - 2024-09-17 12:40:39 --> 404 Page Not Found: /index
+ERROR - 2024-09-17 12:40:39 --> 404 Page Not Found: /index
+ERROR - 2024-09-17 12:40:39 --> 404 Page Not Found: /index
+ERROR - 2024-09-17 12:40:39 --> 404 Page Not Found: /index
+ERROR - 2024-09-17 12:40:39 --> 404 Page Not Found: /index
+ERROR - 2024-09-17 12:40:39 --> 404 Page Not Found: /index
+ERROR - 2024-09-17 12:40:39 --> 404 Page Not Found: /index
